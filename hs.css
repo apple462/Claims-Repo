@@ -1,0 +1,23 @@
+.logo{
+    width: 400px;
+    position: relative;
+    /* display: inline-block; */
+    left: 0;
+    top: 0;
+    margin: 15px;
+    padding: 0;
+}
+
+.welcome{
+    /* display: inline-block; */
+    right:0;
+    top:0;
+    margin: 30px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.btn{
+    color: black;
+    background-color: rgb(197, 186, 186);
+}
