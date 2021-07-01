@@ -29,7 +29,11 @@
             <div style="padding-top: 30px;">
                 <h1 style="font-size: 30px;">Last synced on <span id="time"></span></h1>
                 <p>Synced automatically every 24 hours</p>
-                <br><br>
+                <div class="alert alert-success alert-dismissable col-4" id="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    Claim data synced to blockchain successfully!
+                </div>
+                <br>
                 <a onclick="move()" class="btn-default btn">Sync data on Blockchain now</a>
             </div>
         </center>
@@ -61,6 +65,12 @@
                 if (width >= 100) {
                     clearInterval(id);
                     elem1.innerHTML = "Synced";
+                    var x = document.getElementById("alert");
+                    x.style.display = "block";
+                    const d = new Date();
+                    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                    document.getElementById("time").innerHTML = (d.getDate()) + " " + months[d.getMonth()] + " " + d.getFullYear() + ", " + d.getHours() + ":" + d.getMinutes();
+
                 } else {
                     width++;
                     elem.style.width = width + '%';
