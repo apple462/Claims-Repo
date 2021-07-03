@@ -21,8 +21,6 @@
                     "claimAmount": 97365,
                     "claimStatus": "Accepted",
                     "timestamp":1624896089.3998814,
-                    "signature": "ZM0L8ev+ihCckeQAtbeRCsgjuhiwX/1ul+j3DPaq6ipYimrLH68Bbq+f1Vwup/EW0X44PUThV+EhBluoV+j5+Q=="
-
                 },
                 {
                     "insuranceProvider":"Tata AIG",
@@ -34,10 +32,10 @@
                     "claimAmount": 130405,
                     "claimStatus": "Accepted",
                     "timestamp":1624896689.3998814,
-                    "signature": "ZM0L8ev+ihCckeQAtbeRCsgjuhiwX/1ul+j3DPaq6ipYimrLH68Bbq+f1Vwup/EW0X44PUThV+EhBluoV+j5+Q=="
 
                 }
             ],
+            "signature": "ZM0L8ev+ihCckeQAtbeRCsgjuhiwX/1ul+j3DPaq6ipYimrLH68Bbq+f1Vwup/EW0X44PUThV+EhBluoV+j5+Q==",
             "proof": 3860,
             "previous_hash": "524980e30e710367bff53f2648859dca6c9a12c8d2630fefcc3d6317863fba0b"
         }
