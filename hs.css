@@ -57,7 +57,7 @@ html, body {
     background-color: #C5Efe4; border:2px solid #154f5e;color:#154f5e;
 }
 .logo{
-    width: 250px;
+    width: 200px;
     position: relative;
     /* display: inline-block; */
     left: 0;
@@ -70,9 +70,9 @@ html, body {
     /* display: inline-block; */
     right:0;
     top:0;
-    margin: 30px;
+    margin: 25px;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .btn{
