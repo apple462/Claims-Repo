@@ -12,41 +12,33 @@
             "timestamp": 1624886089.3998814,
             "transactions": [
                 {
-                    "sender": "Sender",
-                    "recipient": "Receiver",
-                    "amount": "1",
+                    "orgPAN": "ABCF2006C",
+                    "orgName":"Infitech Private Limited",
+                    "policyNumber": 125839,
+                    "employeeID": 100485,
+                    "employeeAge":28,
+                    "claimAmount": 97365,
+                    "claimStatus": "Accepted",
+                    "timestamp":1624896089.3998814,
                     "signature": "ZM0L8ev+ihCckeQAtbeRCsgjuhiwX/1ul+j3DPaq6ipYimrLH68Bbq+f1Vwup/EW0X44PUThV+EhBluoV+j5+Q=="
+
                 },
                 {
-                    "sender": "Sender",
-                    "recipient": "Receiver",
-                    "amount": "2",
-                    "signature": "9ARCvNAoT6W4hDcNLlysxJjls3+yDz/QmWMKD6omzjWHXF9P5nmAXRA4EtRvLBG//kva+Nh/wUEz8Uu2Z6XJsA=="
-                }
+                    "orgPAN": "ZXYF2006C",
+                    "orgName":"MAWF Private Limited",
+                    "policyNumber": 23439,
+                    "employeeID": 155485,
+                    "employeeAge":49,
+                    "claimAmount": 130405,
+                    "claimStatus": "Accepted",
+                    "timestamp":1624896689.3998814,
+                    "signature": "ZM0L8ev+ihCckeQAtbeRCsgjuhiwX/1ul+j3DPaq6ipYimrLH68Bbq+f1Vwup/EW0X44PUThV+EhBluoV+j5+Q=="
+
+                },
             ],
             "proof": 3860,
             "previous_hash": "524980e30e710367bff53f2648859dca6c9a12c8d2630fefcc3d6317863fba0b"
-        },
-        {
-            "index": 3,
-            "timestamp": 1624899623.1757526,
-            "transactions": [
-                {
-                    "sender": "A",
-                    "recipient": "B",
-                    "amount": "1",
-                    "signature": "Pz/YBmHlhHI+GfCK5bt68AD5bAq2huSSlcfN2zIVjH2QHO3pnsrDq5mY7xHZQE62q1ycAORneRMTz2QP68BAcg=="
-                },
-                {
-                    "sender": "A",
-                    "recipient": "B",
-                    "amount": "0",
-                    "signature": "JHiOl5StZPP00UnPPQeckcczUhlPfruKNpslHceQfot/DMTbpIR2rSb9PToAUas92ntyMRz1JYBWVO/wHhxlFQ=="
-                }
-            ],
-            "proof": 8231,
-            "previous_hash": "c394897edf1186d67c80db32789a7506424d7d7b8166dc692169f7df90f7b445"
         }
     ],
-    "length": 3
+    "length": 2
 }
